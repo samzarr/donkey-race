@@ -1,4 +1,7 @@
-﻿using System.Collections;
+// an extremely basic template that probably won't work at all for what we want
+// changes coming whenever we figure out what we need
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
