@@ -5,9 +5,6 @@ using UnityEngine;
 
 public class TitleOnClick : MonoBehaviour
 {
-
-    Bobbing bb;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +20,10 @@ public class TitleOnClick : MonoBehaviour
     // Called when this object is clicked
     void OnMouseDown()
     {
-        UnityEngine.Debug.Log("working?");
+       // make sure left mouse button is pressed, not right mouse button
+        if (Input.GetMouseButtonDown(0))
+        {
+            // do whatever you want
+        }
     }
 }
