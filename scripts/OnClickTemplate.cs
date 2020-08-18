@@ -19,6 +19,10 @@ public class OnClickTemplate : MonoBehaviour
     // Called when this object is press
     void OnMouseDown()
     {
-        // Do anything
+        // make sure left mouse button is pressed, not right mouse button
+        if (Input.GetMouseButtonDown(0))
+        {
+            // do whatever you want
+        }
     }
 }
