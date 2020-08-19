@@ -10,13 +10,13 @@ public class Donkey : MonoBehaviour
 
     // attributes
     public int speed;
-    public string name;
+    public string DonkeyName;
 
     // constructor
     public Donkey(int spd, string nme)
     {
         speed = spd;
-        name = nme;
+        DonkeyName = nme;
     }
 
     // Start is called before the first frame update
@@ -36,7 +36,7 @@ public class Donkey : MonoBehaviour
     {
         // alternative logic here
         int new_speed = donkey2.speed + donkey1.speed / 2;
-        string new_name = donkey2.name + donkey1.name;
+        string new_name = donkey2.DonkeyName + donkey1.DonkeyName;
         //
 
         return new Donkey(new_speed, new_name);
